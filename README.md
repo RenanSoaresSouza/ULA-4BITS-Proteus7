@@ -31,7 +31,7 @@ O projeto foi desenvolvido de forma modular, utilizando componentes independente
   - Unidade de complemento de dois
 - Unidade lógica (AND, OR, XOR e NOT)
 - Unidade de deslocamento (Shift Left e Shift Right)
-- Multiplexadores para seleção das operações
+- Multiplexadores para seleção das operações ()
 - Circuito de geração das flags
 
 ![ALU-arquitetura](img/proteus.png)
@@ -79,8 +79,8 @@ A ALU possui um bit de seleção que permite operar em modo **Signed** ou **Unsi
 
 | Sinal | Descrição |
 |-------|-----------|
-| A[3:0] | Operando A |
-| B[3:0] | Operando B |
+| A[3:0] | Entrada A  |
+| B[3:0] | Entrada B |
 | CBA | Seleção da operação |
 | S/U | Seleção Signed/Unsigned |
 
