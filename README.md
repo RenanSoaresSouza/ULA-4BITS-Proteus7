@@ -25,9 +25,10 @@ A ALU executa operações aritméticas e lógicas, como soma, subtração, AND, 
 
 O projeto foi desenvolvido de forma modular, utilizando componentes independentes para cada bloco funcional da ALU, incluindo:
 
-- Somador completo de 1 bit
-- Somador de 4 bits
-- Unidade de complemento de dois
+- Unidade Aritmética 4 bits
+  - Somador completo de 1 bit
+  - Somador de 4 bits
+  - Unidade de complemento de dois
 - Unidade lógica (AND, OR, XOR e NOT)
 - Unidade de deslocamento (Shift Left e Shift Right)
 - Multiplexadores para seleção das operações
