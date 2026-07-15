@@ -4,6 +4,12 @@ Projeto de uma Unidade Lógica Aritmética (ALU) de 4 bits implementada inteiram
 
 A ALU executa operações aritméticas e lógicas, como soma, subtração, AND, OR, XOR, NOT e deslocamentos de bits. Também implementa as flags **Carry (C)**, **Zero (Z)**, **Negative (N)** e **Overflow (V)**, além de um modo de operação **Signed/Unsigned**, permitindo o tratamento adequado de números com e sem sinal.
 
+# Demonstração
+![ALU-4bits](Gif/Proteus.gif)
+
+## Arquitetura
+
+
 # Funcionalidades
 > **Código** refere-se às entradas **CBA**, responsáveis pela seleção da operação executada pela ALU.
 
@@ -33,3 +39,14 @@ A ALU possui um bit de seleção que permite operar em modo **Signed** ou **Unsi
 
 - **Signed:** utiliza as flags **N**, **Z** e **V** para interpretação dos resultados.
 - **Unsigned:** utiliza as flags **C** e **Z**, desconsiderando as flags **N** e **V**.
+
+## Componentes utilizados
+
+- 74HC86 (XOR)
+- 74LS08 (AND)
+- 74LS08 (AND de 3 entradas)
+- 74HC32 (OR)
+- 74LS04 (NOT)
+- 74HC151 (Multiplexador)
+- 74HC4075 (OR de três entradas)
+
